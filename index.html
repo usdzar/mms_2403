@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Web AR</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+        <model-viewer
+          ar
+          ar-modes="scene-viewer webxr quick-look"
+          src="./00_TM.glb"
+          ios-src="./00_TM.usdz"
+          alt="00_TM"
+          auto-rotate
+          camera-controls
+            style="width:400px;height:400px;"    
+        ></model-viewer>
+        <br>
+
+        <model-viewer
+          ar
+          ar-modes="scene-viewer webxr quick-look"
+          src="./01_TM.glb"
+          ios-src="./01_TM.usdz"
+          alt="01_TM"
+          auto-rotate
+          camera-controls
+            style="width:400px;height:400px;"    
+        ></model-viewer>
+        <br>
+    </body>
+</html>
